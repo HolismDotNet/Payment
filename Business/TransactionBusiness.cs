@@ -1,6 +1,6 @@
 namespace Payment;
 
-public class TransactionBusiness : Business<Read, Write>
+public class TransactionBusiness : Business<Transaction, Transaction>
 {
     protected override Read<Transaction> Read => Repository.Transaction;
 
