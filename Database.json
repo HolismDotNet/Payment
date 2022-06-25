@@ -1,6 +1,14 @@
 {
     "name": "Payment",
     "tables": [
-        
+        {
+            "name": "Transactions",
+            "hasGuid": true,
+            "columns": [
+                {
+                    "name": "UniqueKey"
+                }
+            ]
+        }
     ]
 }
